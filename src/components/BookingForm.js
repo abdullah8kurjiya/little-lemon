@@ -1,6 +1,6 @@
 export default function BookingForm() {
     return (
-        <form style="display: grid; max-width: 200px; gap: 20px">
+        <form className="booking">
             <label htmlFor="res-date">Choose date</label>
             <input type="date" id="res-date"/>
             <label htmlFor="res-time">Choose time</label>

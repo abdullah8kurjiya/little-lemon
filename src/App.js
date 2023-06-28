@@ -1,9 +1,10 @@
 import './App.css';
+import BookingPage from './components/BookingPage';
 
 function App() {
   return (
     <div className="App">
-      Home Page
+      <BookingPage/>
     </div>
   );
 }
