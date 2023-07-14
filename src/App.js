@@ -7,6 +7,10 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import pages from './components/pages';
 import Menu from './components/Menu';
+import ConfirmedBooking from './components/ConfirmedBooking';
+import UnderConstruction from './components/UnderConstruction';
+import NotFound from './components/NotFound';
+
 
 
 function App() {
@@ -24,7 +28,7 @@ function App() {
             element={<Menu />} 
           />
           <Route path={pages.get('bookingpage').path} element={<BookingPage />} />
-          {/* <Route 
+          <Route 
             path={pages.get('confirmedBooking').path} 
             element={<ConfirmedBooking />} 
           />
@@ -36,7 +40,7 @@ function App() {
             path={pages.get('login').path} 
             element={<UnderConstruction />} 
           />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer/>
     </div>
