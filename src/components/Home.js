@@ -1,4 +1,4 @@
-import ssaae from "../icons_assets/restauranfood.jpg"
+
 import Banner from "./Banner"
 import Menu from "./Menu"
 import Story from "./Story"

@@ -2,7 +2,7 @@ import './App.css';
 import About from './components/About';
 import BookingPage from './components/BookingPage';
 import Home from './components/Home';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import pages from './components/pages';

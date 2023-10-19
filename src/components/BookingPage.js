@@ -1,7 +1,7 @@
 import  BookingForm  from "./BookingForm";
 import { fetchAPI, submitAPI } from "./Api";
 import { useNavigate } from "react-router-dom";
-import { useState , useReducer, useEffect } from "react";
+import { useState , useEffect } from "react";
 export default function BookingPage() {
   const [date, setDate] = useState(new Date());
   const [availableTimes, setAvailableTimes]=useState([]);
